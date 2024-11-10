@@ -8,7 +8,7 @@ spring :
             - Path=/api/customers/**
 
         - id : r2
-          uri: lb://INVENTORY-SERVICE
+          uri: lb://PRODUCT-SERVICE
           predicates:
             - Path=/api/products/**
     discovery:
