@@ -5,13 +5,9 @@ spring :
         - id: r1
           uri: lb://CUSTOMER-SERVICE
           predicates:
-            - Path=/api/customers/**
+            Path=/api/customers/**
 
         - id : r2
           uri: lb://PRODUCT-SERVICE
           predicates:
-            - Path=/api/products/**
-    discovery:
-      enabled: true
-server:
-  port: 8888
+            Path=/api/products/**
