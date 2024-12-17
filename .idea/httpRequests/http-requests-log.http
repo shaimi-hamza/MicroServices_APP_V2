@@ -1,0 +1,20 @@
+POST http://localhost:8081/actuator/refresh
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2024-12-17T223220.200.json
+
+###
+
+POST http://localhost:8081/actuator/refresh
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2024-12-17T222115.200.json
+
+###
+
