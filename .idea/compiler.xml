@@ -10,8 +10,8 @@
         <module name="config-service" />
         <module name="customer-service" />
         <module name="gateway-service" />
-        <module name="MicroServices_APP" />
         <module name="discovery-service" />
+        <module name="MicroServices_APP" />
         <module name="billing-service" />
       </profile>
     </annotationProcessing>
